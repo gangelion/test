@@ -12,4 +12,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: sh
-              run: ls -l && sh ./server_check.sh
+              run: ls -l
