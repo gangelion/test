@@ -12,4 +12,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: sh
-              run: echo "hello"
+              run: sh server_check.sh
