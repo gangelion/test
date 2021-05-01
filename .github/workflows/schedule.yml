@@ -12,4 +12,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: sh
-              run: chmod 777 server_check.sh && sh server_check.sh
+              run: ${GITHUB_WORKSPACE}/server_check.sh
