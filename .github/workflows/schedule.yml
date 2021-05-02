@@ -11,5 +11,6 @@ jobs:
         name: build
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v2
             - name: sh
-              run: ls -l ${GITHUB_WORKSPACE}/server_check.sh
+              run: sh server_check.sh
