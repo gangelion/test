@@ -1,7 +1,5 @@
 #!/bin/bash
 
-url="https://my.uopeople.edu/"
-
 curl -I $url > check # -Iでヘッダーのみ出力しcheckに出力
 
 # grep HTTP check の出力 サーバーが正常な場合 HTTP/1.1 200 OK
