@@ -14,7 +14,5 @@ jobs:
             - uses: actions/checkout@v2
             - name: sh
               run: sh server_check.sh
-              env:
-                  url: https://my.uopeople.edu/
 
 
