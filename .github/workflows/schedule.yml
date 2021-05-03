@@ -12,6 +12,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
+            - name: set flag
+              run: echo "flag=false" >> $GITHUB_ENV
             - name: sh
               run: sh server_check.sh
               env:
